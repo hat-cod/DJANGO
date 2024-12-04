@@ -1,0 +1,536 @@
+[
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "api_version",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "importPath": "re",
+        "description": "re",
+        "isExtraImport": true,
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "0.hello_world",
+        "description": "0.hello_world",
+        "peekOfCode": "urlpatterns = [\n    path('members/', views.members, name='members'),\n]\nfrom django.contrib import admin\nfrom django.urls import include, path\nurlpatterns = [\n    path('', include('members.urls')),\n    path('admin/', admin.site.urls),\n]",
+        "detail": "0.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "0.hello_world",
+        "description": "0.hello_world",
+        "peekOfCode": "urlpatterns = [\n    path('', include('members.urls')),\n    path('admin/', admin.site.urls),\n]",
+        "detail": "0.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "api_version",
+        "kind": 5,
+        "importPath": "000",
+        "description": "000",
+        "peekOfCode": "api_version = \"1.0\"\napi_version_tuple = (1, 0)\n__version__ = \"1.0\"\n__all__ = [\"api_version\", \"api_version_tuple\", \"__version__\"]\nprint(api_version)\nprint(api_version_tuple)\nprint(__version__)\nprint(__all__)",
+        "detail": "000",
+        "documentation": {}
+    },
+    {
+        "label": "api_version_tuple",
+        "kind": 5,
+        "importPath": "000",
+        "description": "000",
+        "peekOfCode": "api_version_tuple = (1, 0)\n__version__ = \"1.0\"\n__all__ = [\"api_version\", \"api_version_tuple\", \"__version__\"]\nprint(api_version)\nprint(api_version_tuple)\nprint(__version__)\nprint(__all__)",
+        "detail": "000",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "kind": 5,
+        "importPath": "000",
+        "description": "000",
+        "peekOfCode": "__version__ = \"1.0\"\n__all__ = [\"api_version\", \"api_version_tuple\", \"__version__\"]\nprint(api_version)\nprint(api_version_tuple)\nprint(__version__)\nprint(__all__)",
+        "detail": "000",
+        "documentation": {}
+    },
+    {
+        "label": "__all__",
+        "kind": 5,
+        "importPath": "000",
+        "description": "000",
+        "peekOfCode": "__all__ = [\"api_version\", \"api_version_tuple\", \"__version__\"]\nprint(api_version)\nprint(api_version_tuple)\nprint(__version__)\nprint(__all__)",
+        "detail": "000",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "1_variable",
+        "description": "1_variable",
+        "peekOfCode": "x = 3\ny = 8\nprint(x+y)",
+        "detail": "1_variable",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "1_variable",
+        "description": "1_variable",
+        "peekOfCode": "y = 8\nprint(x+y)",
+        "detail": "1_variable",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "2_type_data",
+        "description": "2_type_data",
+        "peekOfCode": "data = (\"1 , 2, 3,4,5,6,7,8,9,10\")\nprint(type(data))\nprint(1)\nprint(2)\nprint(3)\nprint(4)\nprint(5)\nprint(6)\nprint(7)\nprint(8)",
+        "detail": "2_type_data",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "2_type_data",
+        "description": "2_type_data",
+        "peekOfCode": "name = \"ram\"\nage = \"20\"\nroll = 231\nprint(\"type name is:\",type(name))\nprint(\"type name is:\",type(age))\nprint(\"type name is:\",type(roll))",
+        "detail": "2_type_data",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "2_type_data",
+        "description": "2_type_data",
+        "peekOfCode": "age = \"20\"\nroll = 231\nprint(\"type name is:\",type(name))\nprint(\"type name is:\",type(age))\nprint(\"type name is:\",type(roll))",
+        "detail": "2_type_data",
+        "documentation": {}
+    },
+    {
+        "label": "roll",
+        "kind": 5,
+        "importPath": "2_type_data",
+        "description": "2_type_data",
+        "peekOfCode": "roll = 231\nprint(\"type name is:\",type(name))\nprint(\"type name is:\",type(age))\nprint(\"type name is:\",type(roll))",
+        "detail": "2_type_data",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "3_type_conversion",
+        "description": "3_type_conversion",
+        "peekOfCode": "age = 23\nage_1 = \"34\"\nselary = 2.9\nprint(type(age))\nprint(type(age_1))\nprint(type(selary))\n#syntax:\n #   class_name(value)\nint_selary = int(selary)\nprint(type(int_selary))",
+        "detail": "3_type_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "age_1",
+        "kind": 5,
+        "importPath": "3_type_conversion",
+        "description": "3_type_conversion",
+        "peekOfCode": "age_1 = \"34\"\nselary = 2.9\nprint(type(age))\nprint(type(age_1))\nprint(type(selary))\n#syntax:\n #   class_name(value)\nint_selary = int(selary)\nprint(type(int_selary))\nprint(selary)",
+        "detail": "3_type_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "selary",
+        "kind": 5,
+        "importPath": "3_type_conversion",
+        "description": "3_type_conversion",
+        "peekOfCode": "selary = 2.9\nprint(type(age))\nprint(type(age_1))\nprint(type(selary))\n#syntax:\n #   class_name(value)\nint_selary = int(selary)\nprint(type(int_selary))\nprint(selary)\nprint(type(int_selary))",
+        "detail": "3_type_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "int_selary",
+        "kind": 5,
+        "importPath": "3_type_conversion",
+        "description": "3_type_conversion",
+        "peekOfCode": "int_selary = int(selary)\nprint(type(int_selary))\nprint(selary)\nprint(type(int_selary))\nprint(age)\nprint(type(age))\nprint(age_1)\nprint(type(age_1))",
+        "detail": "3_type_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "4_operator",
+        "description": "4_operator",
+        "peekOfCode": "a = 3\nb = 5\nprint(a+b)\nprint(f\"addition of {a} and {b} is {a+b}\")\nprint(f\"subtraction of {a} and {b} is {a-b}\",end=\"---------------\\n\")\nprint(f\"multiplication of {a} and {b} is {a*b}\",end=\"\\n\\n\\n\")\nprint(f\"division of {a} and {b} is {a/b}\")",
+        "detail": "4_operator",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "4_operator",
+        "description": "4_operator",
+        "peekOfCode": "b = 5\nprint(a+b)\nprint(f\"addition of {a} and {b} is {a+b}\")\nprint(f\"subtraction of {a} and {b} is {a-b}\",end=\"---------------\\n\")\nprint(f\"multiplication of {a} and {b} is {a*b}\",end=\"\\n\\n\\n\")\nprint(f\"division of {a} and {b} is {a/b}\")",
+        "detail": "4_operator",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "5_string_menipuleshon",
+        "description": "5_string_menipuleshon",
+        "peekOfCode": "data = (\"   name is roshan    \")\nprint(data.strip())# Output: name is roshan\nprint(data.rstrip())# Output:   name is roshan\nprint(data.lstrip())# Output: name is roshan\n#print(data.split(,))# Output: ['name', 'is', 'roshan']\ndata = (\"   name is roshan    \")\nprint(data.upper())# Output: NAME IS ROSHAN  upper function is all letter in \nprint(data.lower())# Output: name is roshan\nprint(data.capitalize())# Output: Name is roshan\nprint(data.title())# Output: Name Is Roshan",
+        "detail": "5_string_menipuleshon",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "5_string_menipuleshon",
+        "description": "5_string_menipuleshon",
+        "peekOfCode": "data = (\"   name is roshan    \")\nprint(data.upper())# Output: NAME IS ROSHAN  upper function is all letter in \nprint(data.lower())# Output: name is roshan\nprint(data.capitalize())# Output: Name is roshan\nprint(data.title())# Output: Name Is Roshan\nprint(data.swapcase())# Output: NAME IS ROSHAN\nprint(data.replace(\"name\", \"ram\"))# Output: ram is roshan\nprint(data.replace(\"name\", \"ram\", 1))# Output: ram is roshan\nprint(data.replace(\"name\", \"ram\", 2))# Output: ram is roshan",
+        "detail": "5_string_menipuleshon",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "6_condition",
+        "description": "6_condition",
+        "peekOfCode": "age = \"e\"\n#if age.isdigit() == False:  # if not age.isdigit():\nif isinstance(age,str) and age.isdigit() == False:  # if not age.isdigit():\n    print(\"invalid input\")\nelif age>0 and age<12:\n    print(\"child\")\nelif age>12 and age<18:\n    print(\"teen\")\nelif age>18 and age<60:\n    print(\"adult\")",
+        "detail": "6_condition",
+        "documentation": {}
+    },
+    {
+        "label": "#age",
+        "kind": 5,
+        "importPath": "7_user_input",
+        "description": "7_user_input",
+        "peekOfCode": "#age = input(\"Enter your age?#>>>\")\n#print(\"your age is\",age)\nage = input(\"Enter your age?#>>>\")\nage = int(age)\n#if age.isdigit() == False:  # if not age.isdigit():\nif isinstance(age,str) and age.isdigit() == False:  # if not age.isdigit():\n    print(\"invalid input\")\nelif age>0 and age<12:\n    print(\"child\")\nelif age>12 and age<18:",
+        "detail": "7_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "7_user_input",
+        "description": "7_user_input",
+        "peekOfCode": "age = input(\"Enter your age?#>>>\")\nage = int(age)\n#if age.isdigit() == False:  # if not age.isdigit():\nif isinstance(age,str) and age.isdigit() == False:  # if not age.isdigit():\n    print(\"invalid input\")\nelif age>0 and age<12:\n    print(\"child\")\nelif age>12 and age<18:\n    print(\"teen\")\nelif age>18 or age<60:",
+        "detail": "7_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "7_user_input",
+        "description": "7_user_input",
+        "peekOfCode": "age = int(age)\n#if age.isdigit() == False:  # if not age.isdigit():\nif isinstance(age,str) and age.isdigit() == False:  # if not age.isdigit():\n    print(\"invalid input\")\nelif age>0 and age<12:\n    print(\"child\")\nelif age>12 and age<18:\n    print(\"teen\")\nelif age>18 or age<60:\n    print(\"adult\")",
+        "detail": "7_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "#x",
+        "kind": 5,
+        "importPath": "8_game_assignment",
+        "description": "8_game_assignment",
+        "peekOfCode": "#x = ['1','2','3']\n#y = x[1] + x[2]\n#print(y)\n#a = \"hello, world!\" \n#print(len(a))\n#x = 5 \n#if x >3:\n#    print(\"yes\")\n#else:\n#    print(\"no\")",
+        "detail": "8_game_assignment",
+        "documentation": {}
+    },
+    {
+        "label": "#y",
+        "kind": 5,
+        "importPath": "8_game_assignment",
+        "description": "8_game_assignment",
+        "peekOfCode": "#y = x[1] + x[2]\n#print(y)\n#a = \"hello, world!\" \n#print(len(a))\n#x = 5 \n#if x >3:\n#    print(\"yes\")\n#else:\n#    print(\"no\")\n# x = 10",
+        "detail": "8_game_assignment",
+        "documentation": {}
+    },
+    {
+        "label": "#a",
+        "kind": 5,
+        "importPath": "8_game_assignment",
+        "description": "8_game_assignment",
+        "peekOfCode": "#a = \"hello, world!\" \n#print(len(a))\n#x = 5 \n#if x >3:\n#    print(\"yes\")\n#else:\n#    print(\"no\")\n# x = 10\n# def test():\n    # global x",
+        "detail": "8_game_assignment",
+        "documentation": {}
+    },
+    {
+        "label": "#x",
+        "kind": 5,
+        "importPath": "8_game_assignment",
+        "description": "8_game_assignment",
+        "peekOfCode": "#x = 5 \n#if x >3:\n#    print(\"yes\")\n#else:\n#    print(\"no\")\n# x = 10\n# def test():\n    # global x\n# x = 20\n# test()",
+        "detail": "8_game_assignment",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "a = True\nb = True\nc = a and b\nprint(c)\n# or gate\na = True\nb = False\nc = a or b\nprint(c)\n#not gate",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "b = True\nc = a and b\nprint(c)\n# or gate\na = True\nb = False\nc = a or b\nprint(c)\n#not gate\na = True",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "c = a and b\nprint(c)\n# or gate\na = True\nb = False\nc = a or b\nprint(c)\n#not gate\na = True\nc = not a   ",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "a = True\nb = False\nc = a or b\nprint(c)\n#not gate\na = True\nc = not a   \nprint(c)        \n#Bitwise अपरेटरहरू प्रोग्रामिङमा\n# Bitwise अपरेटरहरू प्रोग्रामिङमा आधारभूत उपकरणहरू हुन् जुन बिट स्तरमा संख्याहरूको बाइनरी प्रतिनिधित्वहरूमा काम गर्दछ। तिनीहरू कार्यहरूका लागि आवश्यक छन् जसलाई बिटहरूको प्रत्यक्ष हेरफेर आवश्यक पर्दछ, जस्तै निम्न-स्तर प्रोग्रामिङ, उपकरण ड्राइभरहरू, र क्रिप्टोग्राफी।",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "b = False\nc = a or b\nprint(c)\n#not gate\na = True\nc = not a   \nprint(c)        \n#Bitwise अपरेटरहरू प्रोग्रामिङमा\n# Bitwise अपरेटरहरू प्रोग्रामिङमा आधारभूत उपकरणहरू हुन् जुन बिट स्तरमा संख्याहरूको बाइनरी प्रतिनिधित्वहरूमा काम गर्दछ। तिनीहरू कार्यहरूका लागि आवश्यक छन् जसलाई बिटहरूको प्रत्यक्ष हेरफेर आवश्यक पर्दछ, जस्तै निम्न-स्तर प्रोग्रामिङ, उपकरण ड्राइभरहरू, र क्रिप्टोग्राफी।\n# बिटवाइज अपरेटरहरूको प्रकार",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "c = a or b\nprint(c)\n#not gate\na = True\nc = not a   \nprint(c)        \n#Bitwise अपरेटरहरू प्रोग्रामिङमा\n# Bitwise अपरेटरहरू प्रोग्रामिङमा आधारभूत उपकरणहरू हुन् जुन बिट स्तरमा संख्याहरूको बाइनरी प्रतिनिधित्वहरूमा काम गर्दछ। तिनीहरू कार्यहरूका लागि आवश्यक छन् जसलाई बिटहरूको प्रत्यक्ष हेरफेर आवश्यक पर्दछ, जस्तै निम्न-स्तर प्रोग्रामिङ, उपकरण ड्राइभरहरू, र क्रिप्टोग्राफी।\n# बिटवाइज अपरेटरहरूको प्रकार\n# and र (&) ",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "a = True\nc = not a   \nprint(c)        \n#Bitwise अपरेटरहरू प्रोग्रामिङमा\n# Bitwise अपरेटरहरू प्रोग्रामिङमा आधारभूत उपकरणहरू हुन् जुन बिट स्तरमा संख्याहरूको बाइनरी प्रतिनिधित्वहरूमा काम गर्दछ। तिनीहरू कार्यहरूका लागि आवश्यक छन् जसलाई बिटहरूको प्रत्यक्ष हेरफेर आवश्यक पर्दछ, जस्तै निम्न-स्तर प्रोग्रामिङ, उपकरण ड्राइभरहरू, र क्रिप्टोग्राफी।\n# बिटवाइज अपरेटरहरूको प्रकार\n# and र (&) \n# # bitwise AND अपरेटरले दुई नम्बरहरूको प्रत्येक बिट तुलना गर्छ र नयाँ नम्बर फर्काउँछ जसको बिटहरू 1 मा सेट गरिएको छ भने मात्र अपरेन्डहरूको सम्बन्धित बिटहरू 1 छन्। उदाहरणका लागि:\n#Python मा उदाहरण\n# a = 6 # 0110 बाइनरीमा",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "c = not a   \nprint(c)        \n#Bitwise अपरेटरहरू प्रोग्रामिङमा\n# Bitwise अपरेटरहरू प्रोग्रामिङमा आधारभूत उपकरणहरू हुन् जुन बिट स्तरमा संख्याहरूको बाइनरी प्रतिनिधित्वहरूमा काम गर्दछ। तिनीहरू कार्यहरूका लागि आवश्यक छन् जसलाई बिटहरूको प्रत्यक्ष हेरफेर आवश्यक पर्दछ, जस्तै निम्न-स्तर प्रोग्रामिङ, उपकरण ड्राइभरहरू, र क्रिप्टोग्राफी।\n# बिटवाइज अपरेटरहरूको प्रकार\n# and र (&) \n# # bitwise AND अपरेटरले दुई नम्बरहरूको प्रत्येक बिट तुलना गर्छ र नयाँ नम्बर फर्काउँछ जसको बिटहरू 1 मा सेट गरिएको छ भने मात्र अपरेन्डहरूको सम्बन्धित बिटहरू 1 छन्। उदाहरणका लागि:\n#Python मा उदाहरण\n# a = 6 # 0110 बाइनरीमा\n# b = 15 # 1111 बाइनरीमा",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "a = 4 \nb = 5\nc = a&b   \nprint(c)\na = 4\nb = 5\nc = a|b\nprint(c)\na = 4\nb = 5",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "b = 5\nc = a&b   \nprint(c)\na = 4\nb = 5\nc = a|b\nprint(c)\na = 4\nb = 5\nc = a^b",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "c = a&b   \nprint(c)\na = 4\nb = 5\nc = a|b\nprint(c)\na = 4\nb = 5\nc = a^b\nprint(c)",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "a = 4\nb = 5\nc = a|b\nprint(c)\na = 4\nb = 5\nc = a^b\nprint(c)\na = 4\nb = 5",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "b = 5\nc = a|b\nprint(c)\na = 4\nb = 5\nc = a^b\nprint(c)\na = 4\nb = 5\nc = ~a",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "c = a|b\nprint(c)\na = 4\nb = 5\nc = a^b\nprint(c)\na = 4\nb = 5\nc = ~a\nprint(c)",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "a = 4\nb = 5\nc = a^b\nprint(c)\na = 4\nb = 5\nc = ~a\nprint(c)\na = 4\nb = 5",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "b = 5\nc = a^b\nprint(c)\na = 4\nb = 5\nc = ~a\nprint(c)\na = 4\nb = 5\nc = a<<b",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "c = a^b\nprint(c)\na = 4\nb = 5\nc = ~a\nprint(c)\na = 4\nb = 5\nc = a<<b\nprint(c)",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "a = 4\nb = 5\nc = ~a\nprint(c)\na = 4\nb = 5\nc = a<<b\nprint(c)\na = 4\nb = 5",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "b = 5\nc = ~a\nprint(c)\na = 4\nb = 5\nc = a<<b\nprint(c)\na = 4\nb = 5\nc = a>>b",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "c = ~a\nprint(c)\na = 4\nb = 5\nc = a<<b\nprint(c)\na = 4\nb = 5\nc = a>>b\nprint(c)",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "a = 4\nb = 5\nc = a<<b\nprint(c)\na = 4\nb = 5\nc = a>>b\nprint(c)",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "b = 5\nc = a<<b\nprint(c)\na = 4\nb = 5\nc = a>>b\nprint(c)",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "c = a<<b\nprint(c)\na = 4\nb = 5\nc = a>>b\nprint(c)",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "a = 4\nb = 5\nc = a>>b\nprint(c)",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "b = 5\nc = a>>b\nprint(c)",
+        "detail": "assigment",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "assigment",
+        "description": "assigment",
+        "peekOfCode": "c = a>>b\nprint(c)",
+        "detail": "assigment",
+        "documentation": {}
+    }
+]
